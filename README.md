@@ -1,4 +1,8 @@
 # IDAssignment1
+# Student Name: Rafol Emmanuel Legaspi
+# Student ID: S10206629
+# Class: IT01
+
 Ngee Ann Poly, IT, Year 1 Sem 2
 Front End Development / Interactive Development
 
