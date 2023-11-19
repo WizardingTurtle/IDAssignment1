@@ -21,3 +21,10 @@ Verification Features
 - User age verification (game may not be for all ages)
 - email address verification (for news letter and pre-ordering)
 - more to be added
+
+Reference Links
+- https://www.marathonthegame.com/y3vmGPNRxH3RNTqLkq5PFXZy
+- https://reforger.armaplatform.com/
+- https://arma3.com/
+- https://www.escapefromtarkov.com/ + https://www.escapefromtarkov.com/preorder-page
+- https://camillemormal.com/about
