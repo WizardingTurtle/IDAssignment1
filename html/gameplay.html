@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>ARMA 10 website gameplay</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Expletus+Sans&display=swap');
+      </style>
+  </head>
+
+  <body>
+
+    <header id="navbar" class="sticky">
+      <div class="navbar-container">
+        <a href="./index.html" class="navbutton">
+          <img src="../images/Game_logo.png" class="imgNav" alt="logo of the game">
+        </a>
+        <div class="menu-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <div class="nav-items">
+          <a href="./gameplay.html" class="navbutton" id="current">Game</a>
+          <a href="./roadmap.html" class="navbutton">Roadmap & Events</a>
+          <a href="./index.html#PreOrder" class="navbutton">Pre-Order</a>
+          <a href="./products.html" class="navbutton">Products</a>
+          <a href="#Media" class="navbutton">Media</a>
+        </div>
+      </div>
+    </header>
+
+      <div>
+      <video autoplay muted loop id="videoBack" >
+        <source src="../videos/battle.mp4" type="video/mp4">
+    </video>
+</div>
+    <div class="content">
+        <div> 
+          <div class="txt-bigstatic"><h1 class="txt-justify">UNENDING WAR</h1></div>
+            <div>
+                <p class="txt-justify">
+                    New America and Renvisioned Russia Fight an all out war over the
+                    fictional island of Orion in the year 2077 
+                </p>
+                <p class="txt-justify">
+                    Weapons of war are at their peak, both sides' resources are at the brink of extinction and 
+                    their political relations have reached the tipping point. The spark of war starts at a 
+                    small island off the coast Renvisioned Russia as New America takes the initative to attack
+                    her opponent's critical oil reserves and precious metals needed to maintain Russia's war machine.
+                    Both sides have wronged each other, now its time to choose the lesser of evils in the start of this
+                    unending war
+                </p>
+                <p class="txt-justify">who will you side?</p>
+            </div>
+        </div>  
+        
+        <div class="txt-bigstatic"><h2 class="txt-justify">GAMEPLAY FEATURES</h2></div>
+        
+
+    <iframe
+      src="https://www.youtube.com/embed/Xv6Wy5Le0WU?autoplay=1&mute=1"
+      title="Arma Reforger - Official 1.0 Release Trailer"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+      class="iframe-center"
+      id="slider"
+    ></iframe>
+    <ul class="videoNavigation">
+        <li onclick="videoURL('https://www.youtube.com/embed/Xv6Wy5Le0WU?autoplay=1&mute=1')"><img  alt="thumbnail of trailer 1" src="https://img.youtube.com/vi/Xv6Wy5Le0WU/maxresdefault.jpg"></li>
+        <li onclick="videoURL('https://www.youtube.com/embed/S66ho_UHDkQ?autoplay=1&mute=1')"><img  alt="thumbnail of trailer 2" src="https://img.youtube.com/vi/S66ho_UHDkQ/maxresdefault.jpg"></li>
+        <li onclick="videoURL('https://www.youtube.com/embed/WomAGoEh-Ss?autoplay=1&mute=1')"><img  alt="thumbnail of trailer 3" src="https://img.youtube.com/vi/WomAGoEh-Ss/maxresdefault.jpg"></li>
+    </ul>
+
+    <p class="txt-justify">
+      From trained specialists to armored divisions, play with your team to achieve your team objectives
+      and win the battle with full coordination
+  </p>
+
+    <button id="myBtn" onclick="pause()">Pause Background</button>
+
+  <div class="container" id="Media">
+    <img src="../images/background3.avif" alt="topography background" class="img-center" id="wide">
+    <h1 class="txt-topleft">Stay Tuned for <br> <b class="txt-big">UPDATES</b></h1>
+    <div class="txt-center"> 
+      
+      <div>
+
+        <form class="flexcontainer">
+            <label class="flexchildlong"><input type ="email" placeholder ="email address" name="email" id="email"></label>  
+            <input class="flexchildshort" type="submit" value="SIGN UP" >
+            
+        </form>
+        <h1>ARMA <b class="txt-big">X</b> NEWS</h1>
+      </div>
+      
+
+      
+    </div>
+    <div class="flexcontainerfullwide">
+      <a class="imgLink" href="https://www.youtube.com/@ArmaPlatform">
+      <img src="../images/Youtube_logo.png"
+      alt="youtube icon"
+      class="imgLink"></a>
+
+      <a class="imgLink" href="https://twitter.com/ArmaPlatform">
+      <img src="../images/twitter_logo.jpg"
+      alt="twitter icon"
+      class="imgLink"></a>
+
+      <a class="imgLink" href="https://www.instagram.com/p/Cr0gmDStKKk/">
+      <img src="../images/instagram_logo.png"
+      alt="instagram icon"
+      class="imgLink"></a>
+
+      <a class="imgLink" href="https://www.tiktok.com/@armaplatform?lang=en">
+      <img src="../images/tiktok_logo.png"
+      alt="tiktok icon"
+      class="imgLink"></a>
+    </div>
+
+    <div>
+      <p class="txt-right">email: booh-media interplanet <br>
+          contact info: 123 4000 5666 90</p>
+    </div>
+  </div>
+    <script src="../magic.js"></script>
+    </div>
+
+    
+    
+
+  </body>
+</html>

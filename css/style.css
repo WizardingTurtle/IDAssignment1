@@ -1,0 +1,440 @@
+/*text css*/
+li {
+  font-family: 'Expletus Sans', sans-serif;
+  color: whitesmoke;
+}
+
+h1 {
+  font-family: 'Expletus Sans', sans-serif;
+  color: whitesmoke;
+  text-shadow: 0px 2px 0px rgb(3, 60, 84), 0 0 5px #0088ff;
+ }
+
+h2 {
+  font-family: 'Expletus Sans', sans-serif;
+  color: whitesmoke;
+  text-shadow: 0px 2px 0px rgb(3, 60, 84);
+}
+
+h3 {
+  font-family: 'Expletus Sans', sans-serif;
+  color: whitesmoke;
+  text-shadow: 0px 2px 0px rgb(3, 60, 84);
+}
+p{
+  font-family: 'Expletus Sans', sans-serif;
+  color: whitesmoke;
+  font-size:medium;
+ }
+ .txt-bigstatic {
+  padding-top: 50px;
+  width: 400;
+  font-size: 180%;
+  transition: 0.5s;
+}
+
+.txt-big {
+  font-size: 300%;
+  transition: 0.5s;
+}
+
+.txt-big:hover {
+  font-size: 400%;
+  transition: 0.5s;
+}
+
+.txt-justify{
+  
+  word-wrap: break-word;
+  text-align:center;
+  position:relative;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  width:500px;
+}
+
+.txt-topleft {
+  position: absolute;
+  top: 40px;
+  left: 10px;
+}
+
+.txt-right {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-right: 5%;
+}
+.txt-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.txt-bottom {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+}
+
+/*img css*/
+
+img {
+  height: 50%;
+  width: auto;
+}
+
+.imgLink{
+  height:60px;
+  width:60px;
+  object-fit: cover;
+  border-radius: 40px;
+}
+
+.imgNav{
+  height:30px;
+  object-fit: cover;
+  border-radius: 40px;
+}
+
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 1;
+  z-index: 100;
+}
+
+.imgVertical {
+  background-size: cover;
+  object-fit: cover;
+  height: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  display: block;
+}
+
+.imgHorizontal {
+  background-size: cover;
+  object-fit: cover;
+  width: 440px;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  display: block;
+}
+
+.stickyimg {
+  position: fixed;
+  z-index: -999;
+  opacity:0.1 
+  ;
+}
+
+.container {
+  position: relative;
+}
+
+#wide {
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.front {
+  z-index: 10;
+}
+
+/*video css */
+
+.iframe-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 1;
+  z-index: 100;
+
+  
+  width: 100%;
+  height: 100vh;
+}
+
+#videoBack {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  min-height: 100%;
+  z-index: -10;
+}
+
+@media screen and (max-width: 600px){
+  #videoBack {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width:auto;
+    height: 100%;
+    z-index: -10;
+  }
+}
+
+.content {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.videoNavigation {
+  position: relative;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 120;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.videoNavigation li {
+  list-style: none;
+  cursor: pointer;
+  margin: 0 10px;
+  border-radius: 4px;
+  background: #fff;
+  padding: 3px 3px 0;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.videoNavigation li:hover {
+  opacity: 1;
+}
+
+.videoNavigation li img {
+  width: 180px;
+  height: auto;
+  transition: 0.5s;
+}
+
+.videoNavigation li img:hover{
+  width: 220px;
+  height: auto;
+}
+
+
+/*button css */
+input[type=email], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  background-color: #f9f9f9;
+  border: none;
+  color: black;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/*not working why why why??*/
+input[type=button] {
+  background-color: #ff0000;
+  border: none;
+  color: black;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.genericbutton {
+
+  font-family: 'Expletus Sans', sans-serif;
+  color: #f1f1f1;
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+
+  border: none;
+  border-radius: 5px;
+  background-color: #256686;
+  padding: 2px 4px 2px 4px;
+  margin: 4px;
+  display: inline-block;
+
+  transition: 0.5s;
+  z-index: 80;
+}
+
+.genericbutton:hover {
+  transition: 0.5s;
+  padding: 8px;
+  font-size: 200%;
+  cursor: pointer;
+}
+.formbutton {
+  width: 80px;
+  height: 80px;
+}
+
+#myBtn {
+  width: 10px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: 0.8s;
+}
+
+#myBtn:hover {
+  transition: 0.8s;
+  width: 120px;
+  background: #ddd;
+  color: black;
+  opacity: 1
+}
+
+/*navbar css */
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-items {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    background-color: #333;
+    top: 60px;
+    left: 0;
+    text-align: center;
+  }
+  .navbutton {
+    display: block;
+    padding: 15px;
+  }
+  
+  .menu-toggle {
+    display: flex;
+  }
+}
+
+
+a {
+  font-family: 'Expletus Sans', sans-serif;
+}
+
+a:link, a:visited {
+  text-decoration: none !important;
+  color: #f1f1f1;
+  transition: 0.5s;
+}
+
+a:hover {
+  font-size: 110%;
+  background-color: #5c5c5c;
+  color: #f1f1f1;
+}
+
+#current {
+  background-color: #5c5c5c;
+}
+
+.navbutton {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.sticky {
+  position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 1000;
+}
+
+
+/*flex */
+
+.flexcontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: stretch;
+}
+
+.flexchildlong {
+  float: left;
+  flex-grow: 2;
+}
+
+.flexchildshort {
+  flex-grow: 1;
+  bottom: auto;
+}
+
+.flexcontainerfullwide {
+  display: flex;
+  justify-content: space-evenly;
+  background: rgba(0, 0, 0, 0.755);
+  width: auto;
+  border: solid;
+  border-color:rgba(0, 0, 0, 0.755);
+}
+
+/*General CSS */
+.contentdiv {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  background: rgba(83, 83, 83, 0.5);
+  color: #f1f1f1;
+  width: 90%;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+body {
+  background-color: #000000;
+}
+
+
