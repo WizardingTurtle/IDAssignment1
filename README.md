@@ -6,6 +6,7 @@ Ngee Ann Poly, IT, Year 1 Sem 2
 Front End Development / Interactive Development
 
 # ARMA X Website
+[linktowebsite]([https://wizardingturtle.github.io/IDAssignment1/html/index.html])
 ## Project Overview
 This project is a website that advertises, informs and sells a fictional game by a fictional company
 
